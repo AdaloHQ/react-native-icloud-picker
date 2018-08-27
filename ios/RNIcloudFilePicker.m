@@ -1,4 +1,5 @@
 
+#import <MobileCoreServices/MobileCoreServices.h>
 #import "RNIcloudFilePicker.h"
 
 @implementation RNIcloudFilePicker
