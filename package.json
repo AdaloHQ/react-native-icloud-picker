@@ -1,5 +1,5 @@
 {
-  "name": "@protonapp/react-native-icloud-file-picker",
+  "name": "react-native-icloud-file-picker",
   "version": "0.0.2",
   "description": "",
   "main": "index.js",
