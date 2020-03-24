@@ -9,8 +9,10 @@
   "keywords": [
     "react-native"
   ],
-  "author": "",
-  "license": "",
+  "author": "Jeremy Blalock",
+  "description": "File Picker for iOS in React Native",
+  "license": "UNLICENSED",
+  "homepage": "https://adalo.com",
   "peerDependencies": {
     "react-native": "^0.41.2",
     "react-native-windows": "0.41.0-rc.1"
