@@ -1,6 +1,6 @@
 {
   "name": "react-native-icloud-file-picker",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "File Picker for iOS in React Native",
   "main": "index.js",
   "scripts": {
