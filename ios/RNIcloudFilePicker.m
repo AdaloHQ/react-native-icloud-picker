@@ -20,7 +20,7 @@ RCT_EXPORT_METHOD(showFilePicker:(RCTResponseSenderBlock) callback)
         self.alertWindow.windowLevel = UIWindowLevelAlert + 1;
         [self.alertWindow makeKeyAndVisible];
         
-        self.documentPickerController = [[UIDocumentPickerViewController alloc] initWithDocumentTypes:@[(NSString*)kUTTypePDF, (NSString*)kUTTypeJPEG, (NSString*)kUTTypePNG, (NSString*)kUTTypeGIF] inMode:UIDocumentPickerModeImport];
+        self.documentPickerController = [[UIDocumentPickerViewController alloc] initWithDocumentTypes:@[(NSString*)kUTTypePDF, (NSString*)kUTTypeJPEG, (NSString*)kUTTypePNG, (NSString*)kUTTypeGIF, (NSString*)kUTTypeImage, (NSString*)kUTTypeVideo, (NSString*)kUTTypeQuickTimeMovie, (NSString*)kUTTypeAudio, (NSString*)kUTTypeMP3, (NSString*)kUTTypeMPEG4] inMode:UIDocumentPickerModeImport];
         self.documentPickerController.delegate = self;
         [self.alertWindow.rootViewController presentViewController: self.documentPickerController animated: YES completion: nil];
     });
